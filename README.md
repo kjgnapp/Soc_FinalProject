@@ -57,5 +57,5 @@ In this section, you will find the media files along with the verification plots
 <!-- Authors -->
 ## Authors
 
-Xianghui Xie - Xianghui.xie@ufl.edu
-Alex J. Santiago Rodriguez - santiagorod.alex@ufl.edu
+- Xianghui Xie - Xianghui.xie@ufl.edu
+- Alex J. Santiago Rodriguez - santiagorod.alex@ufl.edu
