@@ -34,11 +34,23 @@ The main scripts are the following:
 
 In this section, you will find the media files along with the verification plots we generated to ensure all sound files were correctly produced across formats.
 
-### Audible files
+### Audible Files
 
 - [Mary had a little lamb](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/mary_lamb.wav)
 - [Paddle Hit](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/paddle_hit.wav)
 - [Point Scored](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/point_scored.wav)
+
+### Header Files
+
+- [Mary had a little lamb](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/mary_lamb.h)
+- [Paddle Hit](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/paddle_hit.h)
+- [Point Scored](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/point_scored.h)
+
+### Memory Files
+
+- [Mary had a little lamb](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/mary_lamb.mem)
+- [Paddle Hit](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/paddle_hit.mem)
+- [Point Scored](https://github.com/kjgnapp/Soc_FinalProject/blob/de52a04431b77664545a674f94bd86f3a979fe75/task_1/audio_verification_code/audio_verification_code/point_scored.mem)
 
 ### Audio Comparison
 
