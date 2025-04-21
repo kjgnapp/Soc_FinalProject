@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/benji/Downloads/P2_axi_urbana2_S2025/P2_axi_urbana2_S2025/UrbanaModified_axi.xdc rfile:../../../../../Users/benji/Downloads/P2_axi_urbana2_S2025/P2_axi_urbana2_S2025/UrbanaModified_axi.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/kurti/Downloads/Soc_FinalProject/project_2.xpr/project_2/project_2.srcs/constrs_1/imports/P2_axi_urbana2_S2025/UrbanaModified_axi.xdc rfile:../../../project_2.srcs/constrs_1/imports/P2_axi_urbana2_S2025/UrbanaModified_axi.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN N15 IOSTANDARD LVCMOS33} [get_ports {clk_100MHz}]
 set_property src_info {type:XDC file:1 line:26 export:INPUT save:INPUT read:READ} [current_design]

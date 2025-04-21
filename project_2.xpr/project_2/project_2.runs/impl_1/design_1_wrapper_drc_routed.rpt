@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Sat Apr 19 22:48:48 2025
-| Host         : bipe_surface_v2 running 64-bit major release  (build 9200)
+| Date         : Mon Apr 21 15:32:25 2025
+| Host         : Burt running 64-bit major release  (build 9200)
 | Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
 | Design       : design_1_wrapper
 | Device       : xc7s50csga324-1
@@ -68,21 +68,21 @@ Related violations: <none>
 
 RTSTAT-10#1 Warning
 No routable loads  
-30 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/m00_nodes/m00_b_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/m01_nodes/m01_ar_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/m01_nodes/m01_aw_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/m01_nodes/m01_w_node/inst/mi_handler_m_sc_areset_pipe,
+30 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_smc/inst/m00_nodes/m00_b_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m00_nodes/m00_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m00_nodes/m00_w_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m01_nodes/m01_b_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m01_nodes/m01_r_node/inst/mi_handler_m_sc_areset_pipe,
 design_1_i/axi_smc/inst/m02_nodes/m02_ar_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/m02_nodes/m02_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m02_nodes/m02_aw_node/inst/mi_handler_m_sc_areset_pipe,
 design_1_i/axi_smc/inst/m02_nodes/m02_w_node/inst/mi_handler_m_sc_areset_pipe,
 design_1_i/axi_smc/inst/m03_nodes/m03_aw_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m03_nodes/m03_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m03_nodes/m03_w_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/m04_nodes/m04_ar_node/inst/mi_handler_m_sc_areset_pipe,
 design_1_i/axi_smc/inst/m04_nodes/m04_b_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/m04_nodes/m04_r_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe,
-design_1_i/axi_smc/inst/s00_nodes/s00_w_node/inst/mi_handler_m_sc_areset_pipe
+design_1_i/axi_smc/inst/m04_nodes/m04_w_node/inst/mi_handler_m_sc_areset_pipe,
+design_1_i/axi_smc/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe
  (the first 15 of 30 listed nets/buses).
 Related violations: <none>
 
