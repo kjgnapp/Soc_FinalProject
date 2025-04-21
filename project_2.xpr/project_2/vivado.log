@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Apr 20 20:07:20 2025
+# Process ID         : 5364
+# Current directory  : C:/Users/benji/AppData/Roaming/Xilinx/Vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent19160
+# Log file           : C:/Users/benji/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file       : C:/Users/benji/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On         : bipe_surface_v2
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i5-1035G7 CPU @ 1.20GHz
+# CPU Frequency      : 1498 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8155 MB
+# Swap memory        : 9663 MB
+# Total Virtual      : 17819 MB
+# Available Virtual  : 6938 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/VivadoProjects/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/benji/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/VivadoProjects/pong_ip2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/VivadoProjects/apb_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:myip_pong2:1.0'. The one found in IP location 'c:/Users/benji/AppData/Roaming/Xilinx/ip_repo' will take precedence over the same IP in location c:/VivadoProjects/pong_ip2
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1187.980 ; gain = 145.551
+update_compile_order -fileset sources_1
+archive_project C:/VivadoProjects/project_2.xpr.zip -temp_dir C:/Users/benji/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5364-bipe_surface_v2 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/benji/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5364-bipe_surface_v2' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/benji/AppData/Roaming/Xilinx/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/VivadoProjects/pong_ip2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/VivadoProjects/apb_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:myip_pong2:1.0'. The one found in IP location 'c:/Users/benji/AppData/Roaming/Xilinx/ip_repo' will take precedence over the same IP in location c:/VivadoProjects/pong_ip2
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/benji/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5364-bipe_surface_v2/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/benji/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5364-bipe_surface_v2/PrjAr/_X_/project_2.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_myip_pong2_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_apb_led_ctl_0_3_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_smc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_timer_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] resetting run 'design_1_myip_pong2_0_0_impl_1'...
+INFO: [Coretcl 2-133] resetting run 'design_1_apb_led_ctl_0_3_impl_1'...
+INFO: [Coretcl 2-133] resetting run 'design_1_axi_smc_0_impl_1'...
+INFO: [Coretcl 2-133] resetting run 'design_1_axi_timer_0_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_apb_led_ctl_0_3'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_apb_led_ctl_0_3'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_smc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_smc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_timer_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_timer_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_myip_pong2_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_myip_pong2_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
