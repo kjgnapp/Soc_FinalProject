@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr 22 18:13:56 2025
+# Process ID         : 31008
+# Current directory  : C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent14840 C:\Users\alexj\Downloads\Soc_FinalProject-Task2\project_2.xpr\project_2\project_2.tmp\myip_pong2_v1_0_project\myip_pong2_v1_0_project.xpr
+# Log file           : C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/vivado.log
+# Journal file       : C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project\vivado.jou
+# Running On         : Alex_PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) 5 120U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 14729 MB
+# Swap memory        : 13421 MB
+# Total Virtual      : 28151 MB
+# Available Virtual  : 9573 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/myip_pong2_v1_0_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/pong_ip2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/apb_ip'.
+CRITICAL WARNING: [IP_Flow 19-11780] Skipping module reference component xilinx.com:module_ref:Debounce_Switch:1.0 found in user repository c:/Users/alexj/Desktop/Grad_school/Spring_2025/EEL5934_project_2_vivado/ip_repo/axi_pong_game/ip_repo 
+CRITICAL WARNING: [IP_Flow 19-11780] Skipping module reference component xilinx.com:module_ref:Pong_Top2:1.0 found in user repository c:/Users/alexj/Desktop/Grad_school/Spring_2025/EEL5934_project_2_vivado/ip_repo/axi_pong_game/ip_repo 
+CRITICAL WARNING: [IP_Flow 19-11780] Skipping module reference component xilinx.com:module_ref:Sync_To_Count2:1.0 found in user repository c:/Users/alexj/Desktop/Grad_school/Spring_2025/EEL5934_project_2_vivado/ip_repo/axi_pong_game/ip_repo 
+CRITICAL WARNING: [IP_Flow 19-11780] Skipping module reference component xilinx.com:module_ref:VGA_Sync_Porch:1.0 found in user repository c:/Users/alexj/Desktop/Grad_school/Spring_2025/EEL5934_project_2_vivado/ip_repo/axi_pong_game/ip_repo 
+CRITICAL WARNING: [IP_Flow 19-11780] Skipping module reference component xilinx.com:module_ref:VGA_Sync_Pulses:1.0 found in user repository c:/Users/alexj/Desktop/Grad_school/Spring_2025/EEL5934_project_2_vivado/ip_repo/axi_pong_game/ip_repo 
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexj/Desktop/Grad_school/Spring_2025/EEL5934_project_2_vivado/ip_repo/axi_pong_game/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/myip_pong2_v1_0_project.srcs/utils_1/imports/synth_1/myip_pong2.dcp with file C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/myip_pong2_v1_0_project.runs/synth_1/myip_pong2.dcp
+launch_runs impl_1 -jobs 8
+[Tue Apr 22 18:22:20 2025] Launched synth_1...
+Run output will be captured here: C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/myip_pong2_v1_0_project.runs/synth_1/runme.log
+[Tue Apr 22 18:22:20 2025] Launched impl_1...
+Run output will be captured here: C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/myip_pong2_v1_0_project.runs/impl_1/runme.log
+ipx::open_ipxact_file C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/component.xml
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Pong_Top2_0_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Sync_To_Count2_0_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_VGA_Sync_Porch_0_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_VGA_Sync_Pulses_0_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_3_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_4_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_0_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_2_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_1_0.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6.vhd'.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Pong_Top2_0_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Sync_To_Count2_0_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_VGA_Sync_Porch_0_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_VGA_Sync_Pulses_0_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_3_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_4_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_0_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_2_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6_Debounce_Switch_1_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_anylanguagebehavioralsimulation (Simulation)': File 'c:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.ipdefs/ip_repo/sim/design_6.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-5897] The set of required XPM macros has changed from 'XPM_CDC' to ''
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 22 18:24:35 2025...

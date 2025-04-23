@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr 22 17:10:07 2025
+# Process ID         : 28308
+# Current directory  : C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3904 C:\Users\alexj\Downloads\Soc_FinalProject-Task2\project_2.xpr\project_2\project_2.tmp\myip_pong2_v1_0_project\myip_pong2_v1_0_project.xpr
+# Log file           : C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/vivado.log
+# Journal file       : C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project\vivado.jou
+# Running On         : Alex_PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) 5 120U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 14729 MB
+# Swap memory        : 13421 MB
+# Total Virtual      : 28151 MB
+# Available Virtual  : 9709 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/alexj/Downloads/Soc_FinalProject-Task2/project_2.xpr/project_2/project_2.tmp/myip_pong2_v1_0_project/myip_pong2_v1_0_project.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
