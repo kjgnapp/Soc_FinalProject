@@ -1,4 +1,0 @@
-domain_path: C:\Users\kurti\Downloads\Soc_FinalProject\audio_testing\platform_LEDTesting\export\platform_LEDTesting\sw\standalone_microblaze_riscv_0
-app_src_dir: C:\Xilinx\Vitis\2024.2\data\embeddedsw\lib\sw_apps\hello_world
-template: hello_world
-lang: c
